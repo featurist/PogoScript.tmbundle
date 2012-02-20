@@ -1,0 +1,2 @@
+cd ~/Library/Application Support/TextMate/Bundles
+git clone https://github.com/featurist/PogoScript.tmbundle.git
