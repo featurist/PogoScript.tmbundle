@@ -67,7 +67,7 @@
 			<key>begin</key>
 			<string>r/</string>
 			<key>end</key>
-			<string>/</string>
+			<string>/[gim]?</string>
 			<key>name</key>
 			<string>string.regexp.pogoscript</string>
 			<key>patterns</key>
@@ -103,14 +103,8 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>match</key>
-					<string>@[_a-zA-Z][_a-zA-Z0-9]*\b</string>
-					<key>name</key>
-					<string>variable.language.pogoscript</string>
-				</dict>
-				<dict>
 					<key>begin</key>
-					<string>@\(</string>
+					<string>#\(</string>
 					<key>end</key>
 					<string>\)</string>
 					<key>name</key>
