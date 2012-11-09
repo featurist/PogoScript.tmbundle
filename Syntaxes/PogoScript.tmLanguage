@@ -47,6 +47,12 @@
 			<string>keyword</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\t</string>
+			<key>name</key>
+			<string>invalid</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>'</string>
 			<key>end</key>
